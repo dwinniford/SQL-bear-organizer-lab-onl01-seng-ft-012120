@@ -1,3 +1,9 @@
 CREATE TABLE bears (
-  id PRIMARY TAG INTEGER
+  id INTEGER PRIMARY TAG,
+  name TEXT,
+  age INTEGER,
+  gender TEXT,
+  color TEXT,
+  temperament TEXT,
+  alive BOOLEAN,
 );
